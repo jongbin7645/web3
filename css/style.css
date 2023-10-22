@@ -1,0 +1,815 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    font: normal 100%/1.3 "pretendard";
+    color: inherit;
+}
+
+
+.container{
+    width: 100%;
+    height: 3945px;
+    
+    margin: 0 auto;
+}
+.upset{
+    position: relative;
+    width: 100%;
+    height: 884px;
+    
+}
+header{
+    
+    width: 385px;
+   
+    float: left;
+}
+header .logo{
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+header .logo img{
+    width: 100%;
+}
+header nav{
+    padding: 20px;
+    padding-left: 60px;
+}
+header nav .navlist{
+   
+}
+header nav .navlist > li{
+    padding-top: 30px;
+}
+header nav .navlist > li > a{
+    overflow: hidden;
+    color: #34618e;
+}
+header nav .navlist > li .sublist{
+    display: none;
+    width: 120px;
+    height: 100%;
+    
+    
+    
+    
+}
+header nav .navlist > li .sublist > li{
+   
+    padding-top: 15px;
+    padding-left: 10px;
+    
+    
+}
+header nav .navlist > li .sublist > li > a{
+    display: block;
+    font-size: 16px;
+    color: #34618e;
+    font-weight: 500;
+    
+
+}
+header nav .navlist > li > a span{}
+header nav .navlist > li > a .icon1{
+    display: block;
+    background: url(../img/header/icon1.png) no-repeat 0 0;
+    width: 37px;
+    height: 27px;
+    float: left;
+}
+header nav .navlist > li > a .icon2{
+    display: block;
+    background: url(../img/header/icon2.png) no-repeat 0 0;
+    width: 37px;
+    height: 27px;
+    float: left;
+}
+header nav .navlist > li > a .icon3{
+    display: block;
+    background: url(../img/header/icon3.png) no-repeat 0 0;
+    width: 37px;
+    height: 27px;
+    float: left;
+}
+header nav .navlist > li > a .icon4{
+    display: block;
+    background: url(../img/header/icon4.png) no-repeat 0 0;
+    width: 37px;
+    height: 27px;
+    float: left;
+}
+header nav .navlist > li > a .icon5{
+    display: block;
+    background: url(../img/header/icon5.png) no-repeat 0 0;
+    width: 37px;
+    height: 27px;
+    float: left;
+}
+header nav .navlist > li > a .tst{
+    display: block;
+    font-size: 18px;
+    margin-left: 45px;
+}
+.banner{
+    
+    width: 100%;
+  
+   
+    float: right;
+    
+    
+}
+.banner .bg{
+    display: block;
+    background: url(../img/banner/cloud.png) no-repeat 0 0;
+    width: 100%;
+    height: 843px;
+}
+.banner .bear{
+    position: absolute;
+    top: 500px;
+    left: 580px;
+    z-index: 10;
+}
+.banner .slide{
+    z-index: 20;
+    position: absolute;
+    top: 125px;
+    left: 22%;
+}
+.banner .slide img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.banner .slide img:nth-last-of-type(1){z-index: 1;}
+.banner .slide img:nth-last-of-type(2){z-index: 2;}
+.banner .slide img:nth-last-of-type(3){z-index: 3;}
+.banner .pset{
+    position: absolute;
+    top: 181px;
+    right: 1%;
+    color: #255686;
+}
+
+.banner .pset .pset1{
+    font-weight: 500;
+}
+.banner .pset .pset1 .p1{
+    display: block;
+    font-size: 24px;
+}
+.banner .pset .pset1 .p2{
+    display: block;
+    font-size: 24px;
+    padding-left: 50px;
+}
+.banner .pset .pset1 .iconset{
+ padding-left: 22px;
+}
+.banner .pset .pset2{
+    margin-top: 40px;
+}
+.banner .pset .pset2 .p1{
+    display: block;
+    font-size: 18px;
+}
+.banner .pset .pset2 .p2{
+    display: block;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.banner .logset{
+    position: absolute;
+    top:50px;
+    right: 5%;
+    display: flex;
+    
+}
+
+.banner .logset > div{
+
+}
+.banner .logset .log{
+
+
+}
+.banner .logset .log a{
+    display: block;
+    font-size: 18px;
+    padding: 10px 30px;
+    border: 1px solid #255686;
+    border-radius: 50px;
+}
+.banner .logset .join{
+     margin-left: 30px;
+
+}
+.banner .logset .join a{
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 30px;
+    background: #255686;
+    border-radius: 50px;
+}
+
+.mbox1{
+    position: relative;
+ 
+}
+.mbox1 .bg{
+background: url(../img/mbox1/bg.png) no-repeat 0 0;
+background-position: 50%;
+width: 100%;
+height: 462px;
+}
+
+.mbox1 .bg .pset1{
+    position: absolute;
+    top: 100px;
+    left: 20%;
+
+}
+.mbox1 .bg .pset1 .p1{
+    display: block;
+    color: #34618e;
+    font-size: 24px;
+
+}
+.mbox1 .bg .pset1 .p2{
+    display: block;
+    font-size: 16px;
+    color: #d0b2d1;
+    padding-left: 2px;
+}
+
+.mbox1 .bg .arrowset{
+    position: absolute;
+    top: 330px;
+    left: 20%;
+}
+.mbox1 .bg .arrowset a{
+    overflow: hidden;
+}
+.mbox1 .bg .arrowset a span{}
+.mbox1 .bg .arrowset a .icon{
+    float: left;
+}
+.mbox1 .bg .arrowset a .tst{
+    display: block;
+    font-size: 18px;
+    color: #34618e;
+    float: right;
+    
+}
+.mbox1 .bg .bg2{
+    position: absolute;
+    left: 30%;
+    bottom: 50px;
+}
+
+.mbox1 .bg .pset2{
+    position: absolute;
+    left: 40%;
+    bottom: 120px;
+    
+}
+.mbox1 .bg .pset2 > li{
+    width: 650px;
+    padding-top: 70px;
+
+}
+.mbox1 .bg .pset2 > li > a{}
+.mbox1 .bg .pset2 > li > a  span{}
+.mbox1 .bg .pset2 > li > a .txt {
+    display: block;
+    font-size: 16px;
+    color: #a7b7d0;
+    float: left;
+}
+.mbox1 .bg .pset2 > li > a .date {
+    display: block;
+    font-size: 16px;
+    color: #a7b7d0;
+    float: right;
+}
+
+.mbox2{
+    position: relative;
+    width: 100%;
+   
+    
+
+}
+.mbox2 .subbox{
+    
+    width: 1322px;
+    height: 816px;
+    margin: auto;
+    background: url(../img/mbox2/cloud.png) no-repeat 0 0;
+    background-position: 300px;
+    
+    
+   
+}
+
+
+.mbox2 .subbox .img1{
+
+    margin-top: 20px;
+    
+}
+.mbox2 .subbox .img2{
+margin-top: 50px;
+margin-left: 250px;
+}
+.mbox2 .subbox .img3{
+  position:absolute;
+  top: 30px;
+  right: 5%;
+}
+
+.mbox2 .subbox .pset1{
+   overflow: hidden;
+    width: 355px;
+    position: absolute;
+    bottom: 330px;
+    right: 20%;
+}
+.mbox2 .subbox .pset1 span{}
+.mbox2 .subbox .pset1 .p1{
+    display: block;
+    font-size: 24px;
+    color: #255686;
+    font-weight: 500;
+    float: left;
+}
+.mbox2 .subbox .pset1 .p2{
+    display: block;
+    font-size: 16px;
+    color: #d0b2d1;
+    padding-top: 5px;
+    margin-left: 20px;
+    float: right;
+    font-weight: 10;
+}
+.mbox2 .subbox .pset2{
+   position: absolute;
+    bottom: 250px;
+    right: 29%;
+}
+.mbox2 .subbox .pset2 .p1{
+    display: block;
+    font-size: 18px;
+    color: #445e86;
+    padding-left: 20px;
+    
+}
+.mbox2 .subbox .pset2 .p2{
+    display: block;
+    font-size: 18px;
+    color: #445e86;
+    padding-top: 10px;
+}
+
+.mbox2 .subbox .bear{
+
+position: absolute;
+bottom: 200px;
+right: 10%;
+}
+.mbox2 .subbox .arrowset{
+   position: absolute;
+   bottom: 100px;
+   right: 10%;
+    border: 1px solid #99a8c0;
+    border-radius: 50px;
+    width: 160px;
+    height: 60px;
+}
+.mbox2 .subbox .arrowset span{
+margin: auto;
+}
+.mbox2 .subbox .arrowset .tst{
+    display: block;
+    font-size: 20px;
+    color: #445e86;
+    float: left;
+   
+}
+.mbox2 .subbox .arrowset .arrow{
+    padding: 5px;
+}
+.mbox2 .subbox .arrowset .spanset{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.mbox2 .subbox .deco{
+    
+    margin-top: 50px;
+}
+
+.mbox3{
+    position: relative;
+    height: 514px;
+    width: 100%;
+
+    
+}
+.mbox3 .subbox{
+   
+    width: 85%;
+    height: 514px;
+    margin:0 auto;
+   position: relative;
+    
+   
+    
+}
+.mbox3 .subbox .tit{
+    position: relative;
+    margin-top: 50px;
+    display: block;
+    font-size: 30px;
+    color: #ccaccd;
+    left: 7%;
+
+
+}
+.mbox3 .subbox .pset{
+    position: relative;
+    display: block;
+    font-size: 18px;
+    padding-top: 30px;
+    font-weight: 300;
+    width: 200px;
+    left: 7%;
+    margin-top: 20px;
+
+}
+.mbox3 .subbox .pset .p1{}
+.mbox3 .subbox .pset .p2{
+    padding-top: 10px;
+}
+.mbox3 .subbox .imgboxset{
+    overflow: hidden;
+    position: absolute;
+    right: 2%;
+    bottom: 60px;
+    width: 950px;
+    height: 340px;
+  
+  
+  
+  
+    
+
+}
+.mbox3 .subbox .imgboxset > div{
+    float: left;
+    margin-left: 20px;
+   
+}
+.mbox3 .subbox .imgbox1{
+   
+
+    width: 285px;
+    height: 320px;
+    background: #fff;
+    border-radius: 10px;
+    filter: drop-shadow(0px 6px 6px #c3c3c3);
+}
+.mbox3 .subbox .imgbox1 img{
+   padding-left: 20px;
+}
+.mbox3 .subbox .imgbox1 .tstset{
+    padding-left: 60px;
+}
+.mbox3 .subbox .imgbox1 .tstset p{
+    display: block;
+    padding: 5px;
+    color: #445e86;
+    font-size: 18px;
+}
+.mbox3 .subbox .imgbox2{
+    
+
+    width: 285px;
+    height: 320px;
+    background: #fff;
+    border-radius: 10px;
+    filter: drop-shadow(0px 6px 6px #c3c3c3);
+}
+.mbox3 .subbox .imgbox2 img{
+    padding-left: 20px;
+}
+.mbox3 .subbox .imgbox2 .tstset{
+    padding-left: 60px;
+    bottom: 20px;
+    left: 70px;
+}
+.mbox3 .subbox .imgbox2 .tstset p{
+    display: block;
+    padding: 5px;
+    color: #445e86;
+    font-size: 18px; 
+}
+.mbox3 .subbox .imgbox3{
+    
+
+    width: 285px;
+    height: 320px;
+    background: #fff;
+    border-radius: 10px;
+    filter: drop-shadow(0px 6px 6px #c3c3c3);
+}
+.mbox3 .subbox .imgbox3 img{
+    padding-left: 20px;
+ 
+    bottom: 370px;
+}
+.mbox3 .subbox .imgbox3 .tstset{
+    padding-left: 10px;
+}
+.mbox3 .subbox .imgbox3 .tstset p{
+    display: block;
+    padding: 5px;
+    color: #445e86;
+    font-size: 18px; 
+}
+.mbox3 .subbox .more{
+    margin-top: 170px;
+    position: relative;
+    left: 7%;
+}
+.mbox3 .subbox .more img{
+  
+    bottom: 720px;
+}
+.mbox4{
+    position: relative;
+    height: 378px;
+    width: 100%;
+    overflow: hidden;
+    
+   
+    
+}
+.mbox4 .p1{
+    display: block;
+    font-size: 80px;
+    color: #dce9fb;
+    font-weight: 800;
+    position: relative;
+    top: 23px;
+    left: 32%;
+    
+    
+}
+.mbox4 .mimg{
+    background: url(../img/mbox4/img1.png) no-repeat 0 0;
+    width: 100%;
+    height: 274px;
+    z-index: 20;
+    background-position: 70%;
+}
+.mbox4 .pset1{
+   
+    position: absolute;
+    bottom: 90px;
+    left: 430px;
+}
+.mbox4 .pset1 .tst1{
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+}
+.mbox4 .pset1 .tst2{
+    display: block;
+    font-size: 24px;
+    font-weight: 200;
+    
+    padding-top:10px;
+}
+
+.mbox5{
+    position: relative;
+    height: 439px;
+    width: 100%;
+    
+    
+}
+.mbox5 .subbox{
+    position: relative;
+    width: 1320px;
+    height: 439px;
+    margin: 0 auto;
+   
+   
+
+    
+}
+.mbox5 .subbox .tit{
+    width: 135px;
+   
+   
+    bottom: 220px;
+    overflow: hidden;
+    padding-top: 90px;
+    margin-left: 40px;
+
+
+
+}
+.mbox5 .subbox .tit:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.mbox5 .subbox .tit .img{
+    float: left;
+
+}
+.mbox5 .subbox .tit .img img{
+}
+.mbox5 .subbox .tit .tst{
+    display: block;
+    font-size: 24px;
+    color: #425b80;
+    float: right;
+    padding-top: 3px;
+    
+    
+}
+
+.mbox5 .subbox .listset{
+   
+    top: 300px;
+    z-index: 50;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+.mbox5 .subbox .listset > li{
+   
+    overflow: hidden;
+    width: 490px;
+    padding-top: 20px;
+    
+    
+
+   
+}
+.mbox5 .subbox .listset > li img{
+    float: left;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+.mbox5 .subbox .listset > li > a{
+    display: block;
+    font-size: 18px;
+    color: #a7b7d0;
+}
+.mbox5 .subbox .listset > li > a span{}
+.mbox5 .subbox .listset > li > a .txt{
+    float: left;
+}
+.mbox5 .subbox .listset > li > a .date{
+    float: right;
+}
+.mbox5 .subbox .more{
+    position: absolute;
+    left: 40%;
+    bottom: 305px;
+}
+.mbox5 .subbox .infoimg{
+  position: absolute;
+  right: 10%;
+  bottom: 50px;
+  z-index: 100;
+    
+}
+.mbox5 .subbox .infoimg img{
+    border-radius: 20px;
+}
+.mbox5 .subbox .bear{
+    position: absolute;
+    right: 3%;
+    bottom: 70px;
+}
+.mbox5 .subbox .bear img{}
+.mbox5 .subbox .deco2{
+    padding-top: 100px;
+}
+.mbox5 .subbox .deco2 img{}
+
+footer{
+    position: relative;
+    height: 455px;
+    width: 100%;
+   
+}
+footer .bg{
+    background: url(../img/footer/background.png) no-repeat 0 0;
+    width: 100%;
+    height: 445px;
+    position: relative;
+    top: 10px;
+}
+footer .bg .subbox{
+    position: relative;
+    width: 85%;
+    height: 100%;
+    
+    margin: 0 auto;
+}
+footer .bg .logo{
+    position: absolute;
+    bottom: 40%;
+    left: 7%;
+}
+footer .bg .logo img{}
+footer .bg .iconset{
+    position: absolute;
+    bottom: 20%;
+    left: 7%;
+    
+}
+footer .bg .iconset img{}
+footer .bg .pset{
+    display: block;
+    position: absolute;
+    top: 135px;
+    right: 30%;
+}
+footer .bg .pset .p1{
+    font-size: 16px;
+    font-weight: 200;
+    color: #255686;
+}
+footer .bg .pset .p2{
+    font-size: 16px;
+    font-weight: 500;
+    color: #255686;
+}
+footer .bg .pset .p3{
+    font-size: 16px;
+    font-weight: 700;
+    color: #255686;
+}
+
+footer .bg .pset > p{
+    padding-top: 20px;
+}
+footer .bg .wavy{
+    
+}
+footer .bg .wavy img{
+ 
+}
+
+footer .bg .pset2{
+    display: block;
+    position: absolute;
+    bottom: 50px;
+    right: 35%;
+}
+footer .bg .pset2 .tst1{
+    font-size: 16px;
+    color: #425b80;
+    font-weight: 400;
+}
+footer .bg .pset2 .tst2{
+    font-size: 16px;
+    color: #425b80;
+    font-weight: 400;
+}
+footer .bg .pset2 > p{
+    padding-top: 10px;
+}
+
+footer section{
+    position: absolute;
+    top: 170px;
+    right: 1%;
+    overflow: hidden;
+}
+footer video{
+    width: 350px;
+    min-width: ;
+    
+    
+}
